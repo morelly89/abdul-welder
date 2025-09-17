@@ -100,7 +100,7 @@ body {
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.4);
 }
 
-.about__img img {
+.about__img .img {
   display: block;
   width: 320px; /* adjust to your layout */
   border-radius: 12px;
