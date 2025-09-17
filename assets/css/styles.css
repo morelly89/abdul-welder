@@ -91,6 +91,28 @@ body {
   margin: 0 0 12px;
 }
 
+.about__img {
+  display: inline-block;
+  padding: 14px; /* frame thickness */
+  /* brown tones */
+  background-color: var(--bronze-2);
+  border-radius: 16px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.4);
+}
+
+.about__img img {
+  display: block;
+  width: 320px; /* adjust to your layout */
+  border-radius: 12px;
+  border: 3px solid #d2b48c; /* tan/brown highlight border */
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.about__img img:hover {
+  transform: scale(1.03);
+}
+
 .about__intro {
   font-size: 20px;
 }
